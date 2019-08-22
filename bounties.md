@@ -37,7 +37,7 @@ Fhe first bounties are for the first entry that beats the given bounds. Please s
 
 ## Computational hardness assumptions
 
-For the reduction to a well-established computational hardness assumption, we consider the assumptions below which are taken from the Wikipedia page ([https://en.wikipedia.org/wiki/Computational_hardness_assumption])
+For the reduction to a well-established computational hardness assumption, we consider the assumptions below which are taken from the [Wikipedia page](https://en.wikipedia.org/wiki/Computational_hardness_assumption)
 
 * Integer factorization problem
 * RSA problem
