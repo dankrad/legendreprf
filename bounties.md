@@ -16,18 +16,18 @@ $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p
 
 &nbsp;&nbsp;For either
 
-* a sub-exponential, i.e. $$2^{(\log p)^{o(1)}}$$, key recovery algorithm that extracts the key $$K$$ using inputs chosen by the attacker[^1]
+* a sub-exponential, i.e. $$2^{(\log p)^{o(1)}}$$, classical key recovery algorithm that extracts the key $$K$$ using inputs chosen by the attacker[^1]
 * a security proof showing the non-existence of such an algorithm by reducing it to a well-established computational hardness assumption (see below)
 
 ### $ 3,000 
 
-&nbsp;&nbsp;For a key recovery algorithm improving on the Russel-Shparlinski ($$O(p \log^2 p)$$ deterministic or $$O(p \log p)$$ probabilistic) algorithm, using a sub-exponential, i.e. $$2^{(\log p)^{o(1)}}$$ number of queries.[^1] [^2]
+&nbsp;&nbsp;For a classical key recovery algorithm improving on the Russel-Shparlinski ($$O(p \log^2 p)$$ deterministic or $$O(p \log p)$$ probabilistic) algorithm, using a sub-exponential, i.e. $$2^{(\log p)^{o(1)}}$$ number of queries.[^1] [^2]
 
 ### $ 1,000
 
 &nbsp;&nbsp;For the most interesting paper on the Legendre PRF in the next year (ends 31 August 2020)[^3]
 
-[^1]: In all cases, probabilistic algorithms are also considered if they improve on the probabilistic versions of the known algorithms
+[^1]: In all cases, probabilistic algorithms are also considered if they improve on the probabilistic versions of the known algorithms. Only classical (non-quantum) algorithms are permitted for the algorithm bounties.
 
 [^2]: For this bounty, we also consider any algorithm that can distinguish a $$2^{(\log p)^{o(1)}}$$ bit length output of the Legendre PRF from a random bit string with advantage $$>0.1$$}
 
