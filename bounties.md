@@ -21,7 +21,7 @@ $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p
 
 ### $ 3,000 
 
-&nbsp;&nbsp;For a classical key recovery algorithm improving on the Russel-Shparlinski ($$O(p \log^2 p)$$ deterministic or $$O(p \log p)$$ probabilistic) algorithm, using a sub-exponential, i.e. $$2^{(\log p)^{o(1)}}$$ number of queries.[^1] [^2]
+&nbsp;&nbsp;For a classical key recovery algorithm improving on the Khovratovich ($$O(p \log M / M)$$ where $$M$$ is the number of PRF queries needed) algorithm, using a sub-exponential, i.e. $$M=2^{(\log p)^{o(1)}}$$ number of queries.[^1] [^2]
 
 ### $ 1,000
 
@@ -29,7 +29,7 @@ $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p
 
 [^1]: In all cases, probabilistic algorithms are also considered if they improve on the probabilistic versions of the known algorithms. Only classical (non-quantum) algorithms are permitted for the algorithm bounties.
 
-[^2]: For this bounty, we also consider any algorithm that can distinguish a $$2^{(\log p)^{o(1)}}$$ bit length output of the Legendre PRF from a random bit string with advantage $$>0.1$$}
+[^2]: For this bounty, we also consider any algorithm that can distinguish a $$2^{(\log p)^{o(1)}}$$ bit length output of the Legendre PRF from a random bit string with advantage $$>0.1$$
 
 [^3]: A cryptographer will be appointed by the Ethereum Foundatoin to judge this (TBD)
 
