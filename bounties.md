@@ -35,7 +35,7 @@ $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p
 
 [^2]: For this bounty, we also consider any algorithm that can distinguish a $$2^{(\log p)^{o(1)}}$$ bit length output of the Legendre PRF from a random bit string with advantage $$>0.1$$
 
-[^3]: A cryptographer will be appointed by the Ethereum Foundatoin to judge this (TBD)
+[^3]: A cryptographer will be appointed by the Ethereum Foundation to judge this (TBD)
 
 Fhe first bounties are for the first entry that beats the given bounds. Please send submissions to Dankrad Feist dankrad .at. ethereum .dot. org.
 
