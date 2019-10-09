@@ -52,7 +52,23 @@ For the reduction to a well-established computational hardness assumption, we co
 
 ## Concrete instances
 
-TBA: Some bounties for key recovery in concrete instances will be announced soon, stay tuned.
+At Devcon5, further bounties for concrete instances of the Legendre PRF were announced. For primes of size 64--148 (security levels 44--128), the following bounties are now available for finding the 
+
+|-------------|---------------|--------------|
+| Prime size  | Security      | Prize        |
+|-------------|---------------|--------------|
+| 64 bits     | 44 bits       | 1 ETH        |
+|-------------|---------------|--------------|
+| 74 bits     | 54 bits       | 2 ETH        |
+|-------------|---------------|--------------|
+| 84 bits     | 64 bits       | 4 ETH        |
+|-------------|---------------|--------------|
+| 100 bits    | 80 bits       | 8 ETH        |
+|-------------|---------------|--------------|
+| 148 bits    | 128 bits      | 16 ETH       |
+|-------------|---------------|--------------|
+
+For each of the challenges, $$2^{20}$$ bits of output from the Legendre PRF are available [here](bountyinstances). To claim one of these bounties, you must find the correct key that generates the outputs.
 
 ### Research papers
 

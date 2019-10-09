@@ -2,7 +2,7 @@
 layout: home
 ---
 
-For bounties on breaking the Legendre PRF, please see [bounties](bounties).
+For bounties on breaking the Legendre PRF, please see [bounties](bounties) for algorithmic bounties and [here](bountyinstances) for concrete key recovery puzzles.
 
 # The Legendre PRF
 
