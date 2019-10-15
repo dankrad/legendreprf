@@ -33,7 +33,11 @@ There is no bounty on this challenge. Use this to test your algorithm. You shoul
 Key:  0x0000000000000000000000000000000000000000000000000000004e2dea1f3c
 ```
 
-## Challenge 0
+## Challenge 0 -- CLAIMED
+
+This challenge has been claimed! Congratulations to Ward Beullens and Tim Beyne. 
+
+Unfortunately, this means you cannot win 1 ETH anymore, but you can still use this challenge to test your algorithm.
 
 ```
 Prime:  0x000000000000000000000000000000000000000000000000ffffffffffffffc5  

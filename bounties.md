@@ -23,9 +23,11 @@ $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p
 * a sub-exponential, i.e. $$2^{(\log p)^{o(1)}}$$, classical key recovery algorithm that extracts the key $$K$$ using inputs chosen by the attacker[^1]
 * a security proof showing the non-existence of such an algorithm by reducing it to a well-established computational hardness assumption (see below)
 
-### $ 3,000 
+### $ 3,000 (Submission under review)
 
 &nbsp;&nbsp;For a classical key recovery algorithm improving on the Khovratovich ($$O(p \log M / M)$$ where $$M$$ is the number of PRF queries needed) algorithm, using a sub-exponential, i.e. $$M=2^{(\log p)^{o(1)}}$$ number of queries.[^1] [^2]
+
+There is currently a submission for this challenge. We will likely reopen this challenge with the new submission as a baseline.
 
 ### $ 1,000
 
