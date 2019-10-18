@@ -37,8 +37,8 @@ When calling this function, make sure to supply enough gas. Redeeming the bounti
 
 The address of the smart contract is [0x64af032181669383a370aE6e4b438ee26bB559b7](https://etherscan.io/address/0x64af032181669383a370ae6e4b438ee26bb559b7).
 
-Code for testing the contract can be found [here](https://github.com/dankrad/Legendre-bounty).
+Code for playing with the contract and testing claim/redeem transactions can be found [here](https://github.com/dankrad/Legendre-bounty).
 
 ## Help
 
-Email dankrad .at. ethereum .dot. org if you need any help redeeming the bounty.
+Email [dankrad .at. ethereum .dot. org](mailto:dankrad .at. ethereum .dot. org) if you need any help redeeming the bounties.
