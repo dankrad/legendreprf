@@ -9,9 +9,7 @@ In addition to the [algorithmic bounties](bounties) announced at CRYPTO'19 in or
 
 ## Redeeming the bounties
 
-Of course, we will provide a smart contract to redeem bounties, because that's just way cooler. Instructions will be provided here.
-
-But until the smart contract is live, if you think you've got one of the keys, please email Dankrad Feist (dankrad .at. ethereum .dot. org) to redeem. Only the first submission for each challenge will count.
+The smart contract for redeeming the bounties is now live at [0x64af032181669383a370aE6e4b438ee26bB559b7](https://etherscan.io/address/0x64af032181669383a370ae6e4b438ee26bb559b7). You can find instructions on claiming the bounties using the smart contract [here](smart_contract_instructions)
 
 These bounties are open until December 31, 2020.
 
