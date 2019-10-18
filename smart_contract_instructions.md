@@ -3,7 +3,7 @@ layout: home
 permalink: /smart_contract_instructions/
 ---
 
-# Legendre PRF bounties for concrete instances
+# Legendre PRF bounty smart contract instructions
 
 If you have found the solution on one of our bounties on [Legendre instances](bountyinstances), here is how you can claim your bounty.
 
