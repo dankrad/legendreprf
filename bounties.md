@@ -39,7 +39,7 @@ There is currently a submission for this challenge. We will likely reopen this c
 
 [^3]: A cryptographer will be appointed by the Ethereum Foundation to judge this (TBD)
 
-Fhe first bounties are for the first entry that beats the given bounds. Please send submissions to Dankrad Feist dankrad .at. ethereum .dot. org.
+The first two bounties are for the first entry that beats the given bounds. Please send submissions to Dankrad Feist dankrad .at. ethereum .dot. org.
 
 ## Computational hardness assumptions
 
