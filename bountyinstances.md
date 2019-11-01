@@ -33,9 +33,9 @@ Key:  0x0000000000000000000000000000000000000000000000000000004e2dea1f3c
 
 ## Challenge 0 -- CLAIMED
 
-This challenge has been claimed! Congratulations to Ward Beullens and Tim Beyne. 
+This challenge has been claimed! Congratulations to Ward Beullens and Tim Beyne.
 
-Unfortunately, this means you cannot win 1 ETH anymore, but you can still use this challenge to test your algorithm.
+Unfortunately, this means you cannot win 1 ETH anymore, but you can still use this challenge to test your algorithm. 
 
 ```
 Prime:  0x000000000000000000000000000000000000000000000000ffffffffffffffc5  
@@ -49,13 +49,16 @@ babb01eebd972b9e87ad4663d4a43ed4ecbe4c7fc3f33a4b8e75f42e936cb9985441ca0bc5fee507
 ```
 Full challenge bits: [0.bin](instances/0.bin)
 
-These values will be used by the bounty smart contract to check the correctness of the solution:  
+The correct key for this challenge is:
 ```
-Check value:  0x00000000000000000000000000000000574fb3b032a69799873a3335cf928752  
-Check length:  128  
+Key: 0x000000000000000000000000000000000000000000000000090644c931a3fba5
 ```
 
-## Challenge 1
+## Challenge 1 -- CLAIMED
+
+This challenge has been claimed, see transaction on [etherscan](https://etherscan.io/tx/0xb9ee411d12356bf56685283ca42f5c6b5b9b644d0b37bc2e729aa395eedb0ec8).
+
+Unfortunately, this means you cannot win 2 ETH anymore, but you can still use this challenge to test your algorithm. 
 
 ```
 Prime:  0x0000000000000000000000000000000000000000000003ffffffffffffffffdd  
@@ -69,10 +72,9 @@ dfea145938ea8628c2a03a6349289cad65e65eea7c5b0209f44daadccb258ecc8b0aa638c8f0020f
 ```
 Full challenge bits: [1.bin](instances/1.bin)
 
-These values will be used by the bounty smart contract to check the correctness of the solution:  
+The correct key for this challenge is
 ```
-Check value:  0x0000000000000000000000000005bfc5abb616dcb96eb812884d9be93ef9f42e  
-Check length:  148  
+Key: 0x000000000000000000000000000000000000000000000384f17db02976dcf63d
 ```
 
 ## Challenge 2

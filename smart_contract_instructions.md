@@ -33,6 +33,8 @@ Use this function to redeem the bounty, 24 hours after submitting your claim.
 
 When calling this function, make sure to supply enough gas. Redeeming the bounties costs up to 1.5 million gas (for challenge 4), so test your call locally first and check how much gas it consumes.
 
+For an example on how to call these functions, I also suggest looking at the calls made to redeem challenge 1: [claim_bounty()](https://etherscan.io/tx/0x6cbf7b49ba401721909e0a07bb18ac857ac9fe30595740c3a4fd74e5a78ccb61), [redeem_bounty()](https://etherscan.io/tx/0xb9ee411d12356bf56685283ca42f5c6b5b9b644d0b37bc2e729aa395eedb0ec8).
+
 ## Contract address/code
 
 The address of the smart contract is [0x64af032181669383a370aE6e4b438ee26bB559b7](https://etherscan.io/address/0x64af032181669383a370ae6e4b438ee26bb559b7).

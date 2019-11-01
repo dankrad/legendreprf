@@ -23,11 +23,11 @@ $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p
 * a sub-exponential, i.e. $$2^{(\log p)^{o(1)}}$$, classical key recovery algorithm that extracts the key $$K$$ using inputs chosen by the attacker[^1]
 * a security proof showing the non-existence of such an algorithm by reducing it to a well-established computational hardness assumption (see below)
 
-### $ 3,000 (Submission under review)
+### $ 3,000 (CLAIMED)
 
 &nbsp;&nbsp;For a classical key recovery algorithm improving on the Khovratovich ($$O(p \log M / M)$$ where $$M$$ is the number of PRF queries needed) algorithm, using a sub-exponential, i.e. $$M=2^{(\log p)^{o(1)}}$$ number of queries.[^1] [^2]
 
-There is currently a submission for this challenge. We will likely reopen this challenge with the new submission as a baseline.
+**CLAIMED:** Congratulations to Ward Beullens for successfully claiming this bounty with an algorithm performing Legendre key recovery in $$ O (p \log^2(p) / M^2)$$ for $$M \leq p^\frac{1}{4}$$. A new bounty based on this performance will be announced soon, so stay tuned!
 
 ### $ 1,000
 
@@ -54,23 +54,25 @@ For the reduction to a well-established computational hardness assumption, we co
 
 ## Concrete instances
 
-At Devcon5, further bounties for concrete instances of the Legendre PRF were announced. For primes of size 64--148 (security levels 44--128), the following bounties are now available for finding the 
+At Devcon5, further bounties for concrete instances of the Legendre PRF were announced. For primes of size 64--148 (security levels 24--108[^4]), the following bounties are now available for recovering a Legendre key:
 
-|-------------|---------------|--------------|
-| Prime size  | Security      | Prize        |
-|-------------|---------------|--------------|
-| 64 bits     | 44 bits       | 1 ETH        |
-|-------------|---------------|--------------|
-| 74 bits     | 54 bits       | 2 ETH        |
-|-------------|---------------|--------------|
-| 84 bits     | 64 bits       | 4 ETH        |
-|-------------|---------------|--------------|
-| 100 bits    | 80 bits       | 8 ETH        |
-|-------------|---------------|--------------|
-| 148 bits    | 128 bits      | 16 ETH       |
-|-------------|---------------|--------------|
+|-------------|---------------|--------------|----------|
+| Prime size  | Security      | Prize        |          |
+|-------------|---------------|--------------|----------|
+| 64 bits     | 24 bits       | 1 ETH        |CLAIMED   |
+|-------------|---------------|--------------|----------|
+| 74 bits     | 34 bits       | 2 ETH        |CLAIMED   |
+|-------------|---------------|--------------|----------|
+| 84 bits     | 44 bits       | 4 ETH        |          |
+|-------------|---------------|--------------|----------|
+| 100 bits    | 60 bits       | 8 ETH        |          |
+|-------------|---------------|--------------|----------|
+| 148 bits    | 108 bits      | 16 ETH       |          |
+|-------------|---------------|--------------|----------|
 
 For each of the challenges, $$2^{20}$$ bits of output from the Legendre PRF are available [here](bountyinstances). To claim one of these bounties, you must find the correct key that generates the outputs.
+
+[^4]: This was originally 44--128 bits of security, but has been reduced to 24--108 due to the Beullens algorithm.
 
 ### Research papers
 
