@@ -20,14 +20,14 @@ $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p
 
 &nbsp;&nbsp;For either
 
-* a sub-exponential, i.e. $$2^{(\log p)^{o(1)}}$$, classical key recovery algorithm that extracts the key $$K$$ using inputs chosen by the attacker[^1]
-* a security proof showing the non-existence of such an algorithm by reducing it to a well-established computational hardness assumption (see below)
+* a sub-exponential, i.e. $$2^{(\log p)^c}$$ for some $$0<c<1$$, classical key recovery algorithm that extracts the key $$K$$ using inputs chosen by the attacker[^1]
+* a security proof which reduces the Lgendre pseudo-random function distinguishing problem to a well-known computational hardness assumption (see below)
 
-### $ 3,000 (CLAIMED)
+### $ 3,000
 
-&nbsp;&nbsp;For a classical key recovery algorithm improving on the Khovratovich ($$O(p \log M / M)$$ where $$M$$ is the number of PRF queries needed) algorithm, using a sub-exponential, i.e. $$M=2^{(\log p)^{o(1)}}$$ number of queries.[^1] [^2]
+&nbsp;&nbsp;For a classical key recovery algorithm improving on the Beullens ($$ O (p \log^2(p) / M^2)$$ Legendre evaluations where $$M$$ is the number of PRF queries needed) algorithm by more than a polylog[^4] factor, using a sub-exponential, i.e. $$M=2^{(\log p)^c}$$ for $$0<c<1$$ number of queries.[^1] [^2]
 
-**CLAIMED:** Congratulations to Ward Beullens for successfully claiming this bounty with an algorithm performing Legendre key recovery in $$ O (p \log^2(p) / M^2)$$ for $$M \leq p^\frac{1}{4}$$. A new bounty based on this performance will be announced soon, so stay tuned!
+[^4]: An improvement $$g(n)$$ on a function $$f(n)$$ is by more than a polylog factor if $$f(n)/g(n)=\Omega(\log^m(n))$$ for all $$m\in\mathbf{N}$$.
 
 ### $ 1,000
 
@@ -35,7 +35,7 @@ $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p
 
 [^1]: In all cases, probabilistic algorithms are also considered if they improve on the probabilistic versions of the known algorithms. Only classical (non-quantum) algorithms are permitted for the algorithm bounties.
 
-[^2]: For this bounty, we also consider any algorithm that can distinguish a $$2^{(\log p)^{o(1)}}$$ bit length output of the Legendre PRF from a random bit string with advantage $$>0.1$$
+[^2]: For this bounty, we also consider any algorithm that can distinguish a $$2^{(\log p)^c}$$ bit length output of the Legendre PRF from a random bit string with advantage $$>0.1$$
 
 [^3]: A cryptographer will be appointed by the Ethereum Foundation to judge this (TBD)
 
@@ -63,7 +63,7 @@ At Devcon5, further bounties for concrete instances of the Legendre PRF were ann
 |-------------|---------------|--------------|----------|
 | 74 bits     | 34 bits       | 2 ETH        |CLAIMED   |
 |-------------|---------------|--------------|----------|
-| 84 bits     | 44 bits       | 4 ETH        |          |
+| 84 bits     | 44 bits       | 4 ETH        |CLAIMED   |
 |-------------|---------------|--------------|----------|
 | 100 bits    | 60 bits       | 8 ETH        |          |
 |-------------|---------------|--------------|----------|
@@ -72,7 +72,7 @@ At Devcon5, further bounties for concrete instances of the Legendre PRF were ann
 
 For each of the challenges, $$2^{20}$$ bits of output from the Legendre PRF are available [here](bountyinstances). To claim one of these bounties, you must find the correct key that generates the outputs.
 
-[^4]: This was originally 44--128 bits of security, but has been reduced to 24--108 due to the Beullens algorithm.
+[^4]: This was originally set as 44--128 bits of security, but has been reduced to 24--108 due to the Beullens algorithm.
 
 ### Research papers
 
@@ -80,4 +80,5 @@ For each of the challenges, $$2^{20}$$ bits of output from the Legendre PRF are 
 * [Lorenzo Grassi, Christian Rechberger, Dragos Rotaru, Peter Scholl, Nigel P. Smart: MPC-Friendly Symmetric Key Primitives (2016)](https://eprint.iacr.org/2016/542.pdf)
 * [Alexander Russell, Igor Shparlinski: Classical and Quantum Polynomial Reconstruction via Legendre Symbol Evaluation (2002)](https://arxiv.org/pdf/quant-ph/0212016.pdf)
 * [Dmitry Khovratovich: Key recovery attacks on the Legendre PRFs within the birthday bound](https://eprint.iacr.org/2019/862.pdf)
+* [Ward Beullens, Tim Beyne, Aleksei Udovenko, Giuseppe Vitto: Cryptanalysis of the Legendre PRF and generalizations](https://eprint.iacr.org/2019/1357)
 

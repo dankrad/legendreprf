@@ -41,3 +41,4 @@ Because of its suitability for MPCs, the Legendre PRF is used in a construction 
 * [Lorenzo Grassi, Christian Rechberger, Dragos Rotaru, Peter Scholl, Nigel P. Smart: MPC-Friendly Symmetric Key Primitives (2016)](https://eprint.iacr.org/2016/542.pdf)
 * [Alexander Russell, Igor Shparlinski: Classical and Quantum Polynomial Reconstruction via Legendre Symbol Evaluation (2002)](https://arxiv.org/pdf/quant-ph/0212016.pdf)
 * [Dmitry Khovratovich: Key recovery attacks on the Legendre PRFs within the birthday bound](https://eprint.iacr.org/2019/862.pdf)
+* [Ward Beullens, Tim Beyne, Aleksei Udovenko, Giuseppe Vitto: Cryptanalysis of the Legendre PRF and generalizations](https://eprint.iacr.org/2019/1357)

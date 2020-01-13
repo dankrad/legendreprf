@@ -77,7 +77,11 @@ The correct key for this challenge is
 Key: 0x000000000000000000000000000000000000000000000384f17db02976dcf63d
 ```
 
-## Challenge 2
+## Challenge 2 -- CLAIMED
+
+This challenge has been claimed.
+
+Unfortunately, this means you cannot win 4 ETH anymore, but you can still use this challenge to test your algorithm. 
 
 ```
 Prime:  0x0000000000000000000000000000000000000000000fffffffffffffffffffdd  
@@ -91,10 +95,9 @@ fed1f400f1d5e046ffad63b6f48caecb7668b263190d1b0d822397b1fd72cf6a5c24f80af7254240
 ```
 Full challenge bits: [2.bin](instances/2.bin)
 
-These values will be used by the bounty smart contract to check the correctness of the solution:  
+The correct key for this challenge is
 ```
-Check value:  0x000000000000000000000000000bafca94ade9b5201633be31512efcaec7cbe6  
-Check length:  148  
+Key: 0x0000000000000000000000000000000000000000000027aaa97c746c22e12d04
 ```
 
 ## Challenge 3
