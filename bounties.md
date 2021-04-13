@@ -25,7 +25,7 @@ $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p
 
 ### $ 6,000
 
-&nbsp;&nbsp;For a classical key recovery algorithm improving on the algorithm by Kaluđerović, Kleinjung and Kostić ($$ O (p log(p) log(log(p))/M^2)$$ Legendre evaluations where $$M$$ is the number of PRF queries needed) algorithm by more than a polylog[^4] factor, using a sub-exponential, i.e. $$M=2^{(\log p)^c}$$ for $$0<c<1$$ number of queries.[^1] [^2]
+&nbsp;&nbsp;For a classical key recovery algorithm improving on the algorithm by Kaluđerović, Kleinjung and Kostić ($$ O (p \log(p) \log(\log(p))/M^2)$$ Legendre evaluations where $$M$$ is the number of PRF queries needed) algorithm by more than a polylog[^4] factor, using a sub-exponential, i.e. $$M=2^{(\log p)^c}$$ for $$0<c<1$$ number of queries.[^1] [^2]
 
 [^4]: An improvement $$g(n)$$ on a function $$f(n)$$ is by more than a polylog factor if $$f(n)/g(n)=\Omega(\log^m(n))$$ for all $$m\in\mathbf{N}$$.
 
