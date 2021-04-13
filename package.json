@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "install": "yum install ruby27-devel.x86_64 && gem install bundler --no-document && bundle install",
+    "install": "yum install ruby-devel.x86_64 && gem install bundler --no-document && bundle install",
     "build": "jekyll build"
   }
 }
