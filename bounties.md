@@ -21,7 +21,7 @@ $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p
 &nbsp;&nbsp;For either
 
 * a sub-exponential, i.e. $$2^{(\log p)^c}$$ for some $$0<c<1$$, classical key recovery algorithm that extracts the key $$K$$ using inputs chosen by the attacker[^1]
-* a security proof which reduces the Lgendre pseudo-random function distinguishing problem to a well-known computational hardness assumption (see below)
+* a security proof which reduces the Legendre pseudo-random function distinguishing problem to a well-known computational hardness assumption (see below)
 
 ### $ 6,000
 
