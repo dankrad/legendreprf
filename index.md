@@ -10,7 +10,7 @@ The Legendre pseudo-random function is a one-bit PRF $$\mathbb{F}_p \rightarrow 
 
 $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p}\right) + 1\right)\right\rceil $$
 
-There are also variants of Legendre PRF with higher degree, which replaces $$K+x$$ above with a univariate polynomial $$f_K(x)$$ of degree two or more, where $K$ represents its coefficients.
+There are also variants of Legendre PRF with a higher degree, which replaces $$K+x$$ above with a univariate polynomial $$f_K(x)$$ of degree two or more, where $$K$$ represents its coefficients.
 
 ## Suitability for MPC
 
@@ -30,17 +30,15 @@ To compute the Legendre symbol $$\left[\left(\frac{x}{p}\right)\right]$$ for an 
 
 ## Suitability for ZKP
 
-Similarly, the evaluation of this PRF can be proved in ZKP over $$\mathbb{F}_{p}$$ efficiently.
-
-Let $n$ be any quadratic nonresidue in $$\mathbb{F}_{p}$$. To validate $$L_{p, K}(x) = b$$ for $$x, b \in \mathbb{F}_p$$:
+Similarly, the evaluation of this PRF can be proved in ZKP over $$\mathbb{F}_{p}$$ efficiently. Let $$n$$ be any quadratic nonresidue in $$\mathbb{F}_{p}$$. To validate $$L_{p, K}(x) = b$$ for $$x, b \in \mathbb{F}_p$$:
 
 1. Prove in ZKP that $$b(1 - b) = 0$$
 
-2. For $$b = 0$$, compute $$a = \sqrt{nx}$$; for $$b = 1$$, compute $$a = \sqrt{x}$$
+2. For $$b = 0$$, compute $$a = \sqrt{n(K + x)}$$; for $$b = 1$$, compute $$a = \sqrt{K + x}$$
 
 3. Allocate $$a$$ as a witness to the ZKP protocol
    
-4. Prove in ZKP that $$a^2 = na(1 - b) + ab$$
+4. Prove in ZKP that $$a^2 = (1 - b)nx + bx$$
 
 ## Bounties
 
@@ -57,4 +55,5 @@ Because of its suitability for MPCs, the Legendre PRF is used in a construction 
 * [Lorenzo Grassi, Christian Rechberger, Dragos Rotaru, Peter Scholl, Nigel P. Smart: MPC-Friendly Symmetric Key Primitives (2016)](https://eprint.iacr.org/2016/542.pdf)
 * [Alexander Russell, Igor Shparlinski: Classical and Quantum Polynomial Reconstruction via Legendre Symbol Evaluation (2002)](https://arxiv.org/pdf/quant-ph/0212016.pdf)
 * [Dmitry Khovratovich: Key recovery attacks on the Legendre PRFs within the birthday bound (2019)](https://eprint.iacr.org/2019/862.pdf)
-* [Ward Beullens, Tim Beyne, Aleksei Udovenko, Giuseppe Vitto: Cryptanalysis of the Legendre PRF and generalizations (2019)](https://eprint.iacr.org/2019/1357)
+* [Ward Beullens, Tim Beyne, Aleksei Udovenko, Giuseppe Vitto: Cryptanalysis of the Legendre PRF and generalizations (2019)](https://eprint.iacr.org/2019/1357.pdf)
+* [Novak Kaluđerović, Thorsten Kleinjung and Dušan Kostić: Cryptanalysis of the generalised Legendre pseudorandom function (2020)](https://msp.org/obs/2020/4/p17.xhtml)
