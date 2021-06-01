@@ -30,7 +30,7 @@ To compute the Legendre symbol $$\left[\left(\frac{x}{p}\right)\right]$$ for an 
 
 ## Suitability for ZKP
 
-Similarly, the evaluation of this PRF can be proved in ZKP over $$\mathbb{F}_{p}$$ efficiently. Let $$n$$ be any quadratic nonresidue in $$\mathbb{F}_{p}$$. To validate $$L_{p, K}(x) = b$$ for $$x, b \in \mathbb{F}_p$$:
+Similarly, the evaluation of this PRF can be proved efficiently in ZKP over $$\mathbb{F}_{p}$$. Let $$n$$ be any quadratic nonresidue in $$\mathbb{F}_{p}$$. To validate $$L_{p, K}(x) = b$$ for $$x, b \in \mathbb{F}_p$$:
 
 1. Prove in ZKP that $$b(1 - b) = 0$$
 
@@ -38,7 +38,7 @@ Similarly, the evaluation of this PRF can be proved in ZKP over $$\mathbb{F}_{p}
 
 3. Allocate $$a$$ as a witness to the ZKP protocol
    
-4. Prove in ZKP that $$a^2 = (1 - b)nx + bx$$
+4. Prove in ZKP that $$a^2 = ((1 - b)n + b)\cdot (K+x)$$
 
 ## Bounties
 
