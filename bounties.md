@@ -79,7 +79,7 @@ For each of the challenges, $$2^{20}$$ bits of output from the Legendre PRF are 
 * [Damgård, Ivan Bjerre: On The Randomness of Legendre and Jacobi Sequences (1988)](https://link.springer.com/content/pdf/10.1007%2F0-387-34799-2_13.pdf)
 * [Lorenzo Grassi, Christian Rechberger, Dragos Rotaru, Peter Scholl, Nigel P. Smart: MPC-Friendly Symmetric Key Primitives (2016)](https://eprint.iacr.org/2016/542.pdf)
 * [Alexander Russell, Igor Shparlinski: Classical and Quantum Polynomial Reconstruction via Legendre Symbol Evaluation (2002)](https://arxiv.org/pdf/quant-ph/0212016.pdf)
-* [Dmitry Khovratovich: Key recovery attacks on the Legendre PRFs within the birthday bound](https://eprint.iacr.org/2019/862.pdf)
-* [Ward Beullens, Tim Beyne, Aleksei Udovenko, Giuseppe Vitto: Cryptanalysis of the Legendre PRF and generalizations](https://eprint.iacr.org/2019/1357)
-* [Novak Kaluđerović, Thorsten Kleinjung and Dušan Kostić: Cryptanalysis of the generalised Legendre pseudorandom function](https://msp.org/obs/2020/4/p17.xhtml)
+* [Dmitry Khovratovich: Key recovery attacks on the Legendre PRFs within the birthday bound (2019)](https://eprint.iacr.org/2019/862.pdf)
+* [Ward Beullens, Tim Beyne, Aleksei Udovenko, Giuseppe Vitto: Cryptanalysis of the Legendre PRF and generalizations (2019)](https://eprint.iacr.org/2019/1357)
+* [Novak Kaluđerović, Thorsten Kleinjung and Dušan Kostić: Cryptanalysis of the generalised Legendre pseudorandom function (2020)](https://msp.org/obs/2020/4/p17.xhtml)
 
