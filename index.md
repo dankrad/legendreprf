@@ -32,7 +32,7 @@ To compute the Legendre symbol $$\left[\left(\frac{x}{p}\right)\right]$$ for an 
 
 Similarly, the evaluation of this PRF can be proved efficiently in ZKP over $$\mathbb{F}_{p}$$. Let $$n$$ be any quadratic nonresidue in $$\mathbb{F}_{p}$$. To validate $$L_{p, K}(x) = b$$ for $$x, b \in \mathbb{F}_p$$:
 
-1. Prove in ZKP that $$b(1 - b) = 0$$
+1. Prove in ZKP that $$b\cdot (1 - b) = 0$$
 
 2. For $$b = 0$$, compute $$a = \sqrt{n(K + x)}$$; for $$b = 1$$, compute $$a = \sqrt{K + x}$$
 
