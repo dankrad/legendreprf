@@ -29,6 +29,10 @@ $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p
 
 [^4]: An improvement $$g(n)$$ on a function $$f(n)$$ is by more than a polylog factor if $$f(n)/g(n)=\Omega(\log^m(n))$$ for all $$m\in\mathbf{N}$$.
 
+### $ 3,000
+
+&nbsp;&nbsp;For a classical PRF distinguishing algorithm against the Legendre PRF that has an error probability bounded away from $$1/3$$ and is faster than direct use of the Kaluđerović, Kleinjung, and Kostić key recovery attacks, by more than a polylog factor[^4], using a sub-exponential, i.e. $$M = 2^{(\log p )^c}$$ for 0 < c < 1 number of queries.
+
 ### $ 2,000
 
 &nbsp;&nbsp;For the most interesting paper on the Legendre PRF in the next year (ends 01 May 2022)[^3]
