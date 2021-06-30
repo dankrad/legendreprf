@@ -27,8 +27,6 @@ $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p
 
 &nbsp;&nbsp;For a classical key recovery algorithm improving on the algorithm by Kaluđerović, Kleinjung and Kostić ($$ O (p \log(p) \log(\log(p))/M^2)$$ Legendre evaluations where $$M$$ is the number of PRF queries needed) algorithm by more than a polylog[^4] factor, using a sub-exponential, i.e. $$M=2^{(\log p)^c}$$ for $$0<c<1$$ number of queries.[^1] [^2]
 
-[^4]: An improvement $$g(n)$$ on a function $$f(n)$$ is by more than a polylog factor if $$f(n)/g(n)=\Omega(\log^m(n))$$ for all $$m\in\mathbf{N}$$.
-
 ### $ 3,000
 
 &nbsp;&nbsp;For a classical PRF distinguishing algorithm against the Legendre PRF that has an error probability bounded away from $$1/3$$ and is faster than direct use of the Kaluđerović, Kleinjung, and Kostić key recovery attacks, by more than a polylog factor[^4], using a sub-exponential, i.e. $$M = 2^{(\log p )^c}$$ for 0 < c < 1 number of queries.
@@ -42,6 +40,8 @@ $$ \displaystyle L_{p, K}(x) = \left\lceil\frac{1}{2}\left( \left(\frac{K + x}{p
 [^2]: For this bounty, we also consider any algorithm that can distinguish a $$2^{(\log p)^c}$$ bit length output of the Legendre PRF from a random bit string with advantage $$>0.1$$
 
 [^3]: This will be judged by the cryptographers of the Ethereum Foundation Cryptography Research team and cannot be appealed
+
+[^4]: An improvement $$g(n)$$ on a function $$f(n)$$ is by more than a polylog factor if $$f(n)/g(n)=\Omega(\log^m(n))$$ for all $$m\in\mathbf{N}$$.
 
 The first two bounties are for the first entry that beats the given bounds. Please send submissions to Dankrad Feist dankrad .at. ethereum .dot. org.
 
@@ -58,7 +58,7 @@ For the reduction to a well-established computational hardness assumption, we co
 
 ## Concrete instances
 
-At Devcon5, further bounties for concrete instances of the Legendre PRF were announced. For primes of size 64--148 (security levels 24--108[^4]), the following bounties are now available for recovering a Legendre key:
+At Devcon5, further bounties for concrete instances of the Legendre PRF were announced. For primes of size 64--148 (security levels 24--108[^5]), the following bounties are now available for recovering a Legendre key:
 
 |-------------|---------------|--------------|----------|
 | Prime size  | Security      | Prize        |          |
@@ -76,7 +76,7 @@ At Devcon5, further bounties for concrete instances of the Legendre PRF were ann
 
 For each of the challenges, $$2^{20}$$ bits of output from the Legendre PRF are available [here](bountyinstances). To claim one of these bounties, you must find the correct key that generates the outputs.
 
-[^4]: This was originally set as 44--128 bits of security, but has been reduced to 24--108 due to the Beullens algorithm.
+[^5]: This was originally set as 44--128 bits of security, but has been reduced to 24--108 due to the Beullens algorithm.
 
 ### Research papers
 
