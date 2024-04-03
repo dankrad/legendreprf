@@ -2,8 +2,6 @@
 layout: home
 ---
 
-For bounties on breaking the Legendre PRF, please see [bounties](bounties) for algorithmic bounties and [here](bountyinstances) for concrete key recovery puzzles.
-
 # The Legendre PRF
 
 The Legendre pseudo-random function is a one-bit PRF $$\mathbb{F}_p \rightarrow \{0,1\}$$ defined using the [Legendre symbol](https://en.wikipedia.org/wiki/Legendre_symbol):
@@ -42,7 +40,7 @@ Similarly, the evaluation of this PRF can be proved efficiently in ZKP over $$\m
 
 ## Bounties
 
-Because of its suitability for MPCs, the Legendre PRF is used in a construction for the Ethereum 2.0 protocol. In order to encourage research in this PRF, we announced some bounties at Crypto'19. See [bounties](bounties).
+The Legendre bounties are now closed.
 
 ## Further reading
 
