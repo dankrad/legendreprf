@@ -3,5 +3,8 @@
   "scripts": {
     "install": "yum install ruby-devel.x86_64 && gem install bundler --no-document && bundle install",
     "build": "jekyll build"
+  },
+  "dependencies": {
+    "vercel": "^33.6.2"
   }
 }

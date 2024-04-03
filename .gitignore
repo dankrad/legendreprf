@@ -4,3 +4,4 @@ public
 .jekyll-metadata
 .env
 .env.build
+.vercel
